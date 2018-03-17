@@ -1,0 +1,13 @@
+# LDAP server
+server: 
+port: 
+
+# Should be in CN format (e.g. "CN=ROUser,CN=users,DC=ad,DC=example,DC=org")
+searchuser: 
+searchpass: 
+
+# (e.g. "DC=ad,DC=example,DC=org")
+basedn: 
+# This is the attribute we're going to search on to 
+# find the user in the directory (e.g. uidNumber)
+searchattr: 
